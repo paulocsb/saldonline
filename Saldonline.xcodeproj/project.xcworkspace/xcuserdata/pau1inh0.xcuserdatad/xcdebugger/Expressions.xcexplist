@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[InicialViewController prepareForSegue:sender:]:InicialViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self txtConsulta.text];">
+            </PersistentString>
+            <PersistentString
+               value = "self.selectedIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "item[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[TiposViewController cargaInicial]:TiposViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSLog(@&quot;%@&quot;, matrix)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ExtratoViewController fetchedData:]:ExtratoViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ListagemViewController tableView:cellForRowAtIndexPath:]:ListagemViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController tableView:numberOfRowsInSection:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ExtratoViewController prepareURL]:ExtratoViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[InicialViewController tableView:commitEditingStyle:forRowAtIndexPath:]:InicialViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController fetchedData:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController viewDidLoad]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[InicialViewController viewDidLoad]:InicialViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController tableView:cellForRowAtIndexPath:]:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "jsonData">
+            </PersistentString>
+            <PersistentString
+               value = "item[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ListagemCartaoViewController loadTipoCartao]:ListagemCartaoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(tipoCartao == nil) ? true : false;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

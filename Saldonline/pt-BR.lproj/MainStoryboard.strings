@@ -1,0 +1,42 @@
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "DoT-6m-3ge"; */
+"DoT-6m-3ge.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "KOa-sE-fbq"; */
+"KOa-sE-fbq.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "MQS-Re-cUt"; */
+"MQS-Re-cUt.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Informe o nome para o cartão:"; ObjectID = "Pyg-Eg-02N"; */
+"Pyg-Eg-02N.text" = "Informe o nome para o cartão:";
+
+/* Class = "IBUINavigationItem"; title = "Meus cartões"; ObjectID = "RJY-mO-b9l"; */
+"RJY-mO-b9l.title" = "Meus cartões";
+
+/* Class = "IBUINavigationItem"; title = "Novo cartão"; ObjectID = "STM-AR-cTW"; */
+"STM-AR-cTW.title" = "Novo cartão";
+
+/* Class = "IBUILabel"; text = "Informe o número do cartão:"; ObjectID = "az9-lA-Z4f"; */
+"az9-lA-Z4f.text" = "Informe o número do cartão:";
+
+/* Class = "IBUINavigationItem"; title = "Extrato"; ObjectID = "cVF-Uh-2T2"; */
+"cVF-Uh-2T2.title" = "Extrato";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancelar"; ObjectID = "cWH-hw-x5F"; */
+"cWH-hw-x5F.title" = "Cancelar";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "iIc-F6-1z0"; */
+"iIc-F6-1z0.text" = "Subtitle";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "iyT-mf-VPK"; */
+"iyT-mf-VPK.text" = "Label";
+
+/* Class = "IBUITabBarItem"; title = "Meus Cartões"; ObjectID = "kDv-Le-BJj"; */
+"kDv-Le-BJj.title" = "Meus Cartões";
+
+/* Class = "IBUINavigationItem"; title = "Selecione"; ObjectID = "rXk-OV-8Cu"; */
+"rXk-OV-8Cu.title" = "Selecione";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "sil-Ci-CuI"; */
+"sil-Ci-CuI.text" = "Title";

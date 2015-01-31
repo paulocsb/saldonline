@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590D364E16C5A19500097D73 /* logo-saldonline.png in Resources */ = {isa = PBXBuildFile; fileRef = 590D364D16C5A19500097D73 /* logo-saldonline.png */; };
+		590FA2CA16D7A670005A6084 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FA2C916D7A670005A6084 /* AdSupport.framework */; };
+		590FA2CC16D7A690005A6084 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FA2CB16D7A690005A6084 /* StoreKit.framework */; };
+		590FA2CE16D7A69D005A6084 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FA2CD16D7A69D005A6084 /* AudioToolbox.framework */; };
+		590FA2D016D7A6AA005A6084 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FA2CF16D7A6AA005A6084 /* MessageUI.framework */; };
+		590FA2D216D7A6BA005A6084 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FA2D116D7A6BA005A6084 /* SystemConfiguration.framework */; };
+		590FA2D416D7A73A005A6084 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 590FA2D316D7A73A005A6084 /* libGoogleAdMobAds.a */; };
+		59443F7E16B887A8009CB488 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59443F7D16B887A8009CB488 /* CoreText.framework */; };
+		5994F31B16BB4E550020B446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30216BB4E550020B446 /* AppDelegate.m */; };
+		5994F31C16BB4E550020B446 /* Cartoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30416BB4E550020B446 /* Cartoes.m */; };
+		5994F31E16BB4E550020B446 /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30716BB4E550020B446 /* DejalActivityView.m */; };
+		5994F32016BB4E550020B446 /* ExtratoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30A16BB4E550020B446 /* ExtratoViewController.m */; };
+		5994F32116BB4E550020B446 /* InicialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30C16BB4E550020B446 /* InicialViewController.m */; };
+		5994F32216BB4E550020B446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30D16BB4E550020B446 /* main.m */; };
+		5994F32316BB4E550020B446 /* MeusCartoesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F30F16BB4E550020B446 /* MeusCartoesViewController.m */; };
+		5994F32416BB4E550020B446 /* NovoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F31116BB4E550020B446 /* NovoViewController.m */; };
+		5994F32716BB4E550020B446 /* TipoCartao.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F31616BB4E550020B446 /* TipoCartao.m */; };
+		5994F32816BB4E550020B446 /* TiposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F31816BB4E550020B446 /* TiposViewController.m */; };
+		5994F32916BB4E550020B446 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5994F31A16BB4E550020B446 /* Utils.m */; };
+		5994F33216BB4F290020B446 /* ctTicketAlimentacao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F32A16BB4F290020B446 /* ctTicketAlimentacao.png */; };
+		5994F33316BB4F290020B446 /* ctTicketRestaurante.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F32B16BB4F290020B446 /* ctTicketRestaurante.png */; };
+		5994F33416BB4F290020B446 /* ctVisaValeAlimentacao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F32C16BB4F290020B446 /* ctVisaValeAlimentacao.png */; };
+		5994F33516BB4F290020B446 /* ctVisaValeRefeicao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F32D16BB4F290020B446 /* ctVisaValeRefeicao.png */; };
+		5994F33616BB4F290020B446 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F32E16BB4F290020B446 /* Default-568h@2x.png */; };
+		5994F33716BB4F290020B446 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F32F16BB4F290020B446 /* Default.png */; };
+		5994F33816BB4F290020B446 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5994F33016BB4F290020B446 /* Default@2x.png */; };
+		5994F34216BB50EC0020B446 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5994F34016BB50EC0020B446 /* InfoPlist.strings */; };
+		5994F34D16BB52F90020B446 /* Saldonline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5994F34B16BB52F90020B446 /* Saldonline.xcdatamodeld */; };
+		59DE28F916C6BA59008F61B0 /* tresbits.png in Resources */ = {isa = PBXBuildFile; fileRef = 59DE28F816C6BA59008F61B0 /* tresbits.png */; };
+		59FDFC1116AA0ACF00437948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FDFC1016AA0ACF00437948 /* UIKit.framework */; };
+		59FDFC1316AA0ACF00437948 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FDFC1216AA0ACF00437948 /* Foundation.framework */; };
+		59FDFC1516AA0ACF00437948 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FDFC1416AA0ACF00437948 /* CoreGraphics.framework */; };
+		59FDFC2A16AA0ACF00437948 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FDFC2816AA0ACF00437948 /* MainStoryboard.storyboard */; };
+		59FDFC9316AE199B00437948 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FDFC9216AE199B00437948 /* CoreData.framework */; };
+		59FDFCD916B2E0B900437948 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FDFCD816B2E0B800437948 /* iAd.framework */; };
+		B22FE13A1804D372009A0461 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22FE1391804D372009A0461 /* Images.xcassets */; };
+		B2764C5217F78C4500BC10BF /* info-saldonline.png in Resources */ = {isa = PBXBuildFile; fileRef = B2764C5117F78C4500BC10BF /* info-saldonline.png */; };
+		B2764C7017F7B40300BC10BF /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2764C6417F7B40300BC10BF /* AbstractActionSheetPicker.m */; };
+		B2764C7117F7B40300BC10BF /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2764C6617F7B40300BC10BF /* ActionSheetCustomPicker.m */; };
+		B2764C7217F7B40300BC10BF /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2764C6917F7B40300BC10BF /* ActionSheetDatePicker.m */; };
+		B2764C7317F7B40300BC10BF /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2764C6B17F7B40300BC10BF /* ActionSheetDistancePicker.m */; };
+		B2764C7417F7B40300BC10BF /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2764C6D17F7B40300BC10BF /* ActionSheetStringPicker.m */; };
+		B2764C7517F7B40300BC10BF /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2764C6F17F7B40300BC10BF /* DistancePickerView.m */; };
+		B2938EC017ED4F760010DB1D /* Pixate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2938EBF17ED4F760010DB1D /* Pixate.framework */; };
+		B2938EC217ED50380010DB1D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2938EC117ED50380010DB1D /* QuartzCore.framework */; };
+		B2938EC517ED53A90010DB1D /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = B2938EC417ED53A90010DB1D /* default.css */; };
+		B2DE93BC187E1B83004289A1 /* Configuracoes.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2DE93BB187E1B83004289A1 /* Configuracoes.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		590D364116C1869900097D73 /* ActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Saldonline/ActionSheetPicker.h; sourceTree = SOURCE_ROOT; };
+		590D364D16C5A19500097D73 /* logo-saldonline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-saldonline.png"; path = "Saldonline/logo-saldonline.png"; sourceTree = SOURCE_ROOT; };
+		590FA23316D7A267005A6084 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		590FA23416D7A267005A6084 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		590FA23516D7A267005A6084 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		590FA23616D7A267005A6084 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		590FA23716D7A267005A6084 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		590FA23816D7A267005A6084 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		590FA23916D7A267005A6084 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		590FA23A16D7A267005A6084 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		590FA23B16D7A267005A6084 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		590FA2C916D7A670005A6084 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		590FA2CB16D7A690005A6084 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		590FA2CD16D7A69D005A6084 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		590FA2CF16D7A6AA005A6084 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		590FA2D116D7A6BA005A6084 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		590FA2D316D7A73A005A6084 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		59443F7D16B887A8009CB488 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		598DD74016B4811E00EB62DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5994F30116BB4E550020B446 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Saldonline/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		5994F30216BB4E550020B446 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Saldonline/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		5994F30316BB4E550020B446 /* Cartoes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Cartoes.h; path = Saldonline/Cartoes.h; sourceTree = SOURCE_ROOT; };
+		5994F30416BB4E550020B446 /* Cartoes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Cartoes.m; path = Saldonline/Cartoes.m; sourceTree = SOURCE_ROOT; };
+		5994F30616BB4E550020B446 /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DejalActivityView.h; path = Saldonline/DejalActivityView.h; sourceTree = SOURCE_ROOT; };
+		5994F30716BB4E550020B446 /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DejalActivityView.m; path = Saldonline/DejalActivityView.m; sourceTree = SOURCE_ROOT; };
+		5994F30916BB4E550020B446 /* ExtratoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtratoViewController.h; path = Saldonline/ExtratoViewController.h; sourceTree = SOURCE_ROOT; };
+		5994F30A16BB4E550020B446 /* ExtratoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtratoViewController.m; path = Saldonline/ExtratoViewController.m; sourceTree = SOURCE_ROOT; };
+		5994F30B16BB4E550020B446 /* InicialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InicialViewController.h; path = Saldonline/InicialViewController.h; sourceTree = SOURCE_ROOT; };
+		5994F30C16BB4E550020B446 /* InicialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InicialViewController.m; path = Saldonline/InicialViewController.m; sourceTree = SOURCE_ROOT; };
+		5994F30D16BB4E550020B446 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Saldonline/main.m; sourceTree = SOURCE_ROOT; };
+		5994F30E16BB4E550020B446 /* MeusCartoesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeusCartoesViewController.h; path = Saldonline/MeusCartoesViewController.h; sourceTree = SOURCE_ROOT; };
+		5994F30F16BB4E550020B446 /* MeusCartoesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeusCartoesViewController.m; path = Saldonline/MeusCartoesViewController.m; sourceTree = SOURCE_ROOT; };
+		5994F31016BB4E550020B446 /* NovoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NovoViewController.h; path = Saldonline/NovoViewController.h; sourceTree = SOURCE_ROOT; };
+		5994F31116BB4E550020B446 /* NovoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NovoViewController.m; path = Saldonline/NovoViewController.m; sourceTree = SOURCE_ROOT; };
+		5994F31216BB4E550020B446 /* Saldonline-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Saldonline-Info.plist"; path = "Saldonline/Saldonline-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5994F31316BB4E550020B446 /* Saldonline-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Saldonline-Prefix.pch"; path = "Saldonline/Saldonline-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5994F31516BB4E550020B446 /* TipoCartao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipoCartao.h; path = Saldonline/TipoCartao.h; sourceTree = SOURCE_ROOT; };
+		5994F31616BB4E550020B446 /* TipoCartao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipoCartao.m; path = Saldonline/TipoCartao.m; sourceTree = SOURCE_ROOT; };
+		5994F31716BB4E550020B446 /* TiposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiposViewController.h; path = Saldonline/TiposViewController.h; sourceTree = SOURCE_ROOT; };
+		5994F31816BB4E550020B446 /* TiposViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiposViewController.m; path = Saldonline/TiposViewController.m; sourceTree = SOURCE_ROOT; };
+		5994F31916BB4E550020B446 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Saldonline/Utils.h; sourceTree = SOURCE_ROOT; };
+		5994F31A16BB4E550020B446 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Saldonline/Utils.m; sourceTree = SOURCE_ROOT; };
+		5994F32A16BB4F290020B446 /* ctTicketAlimentacao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctTicketAlimentacao.png; path = Saldonline/ctTicketAlimentacao.png; sourceTree = SOURCE_ROOT; };
+		5994F32B16BB4F290020B446 /* ctTicketRestaurante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctTicketRestaurante.png; path = Saldonline/ctTicketRestaurante.png; sourceTree = SOURCE_ROOT; };
+		5994F32C16BB4F290020B446 /* ctVisaValeAlimentacao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctVisaValeAlimentacao.png; path = Saldonline/ctVisaValeAlimentacao.png; sourceTree = SOURCE_ROOT; };
+		5994F32D16BB4F290020B446 /* ctVisaValeRefeicao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctVisaValeRefeicao.png; path = Saldonline/ctVisaValeRefeicao.png; sourceTree = SOURCE_ROOT; };
+		5994F32E16BB4F290020B446 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Saldonline/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		5994F32F16BB4F290020B446 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Saldonline/Default.png; sourceTree = SOURCE_ROOT; };
+		5994F33016BB4F290020B446 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Saldonline/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		5994F34116BB50EC0020B446 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Saldonline/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		5994F34A16BB52410020B446 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/MainStoryboard.strings"; sourceTree = "<group>"; };
+		5994F34C16BB52F90020B446 /* Saldonline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Saldonline.xcdatamodel; sourceTree = "<group>"; };
+		59DE28F816C6BA59008F61B0 /* tresbits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tresbits.png; path = Saldonline/tresbits.png; sourceTree = SOURCE_ROOT; };
+		59FDFC0C16AA0ACF00437948 /* Saldonline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saldonline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FDFC1016AA0ACF00437948 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59FDFC1216AA0ACF00437948 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59FDFC1416AA0ACF00437948 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59FDFC2916AA0ACF00437948 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		59FDFC9216AE199B00437948 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		59FDFCD816B2E0B800437948 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B22FE1391804D372009A0461 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2764C5117F78C4500BC10BF /* info-saldonline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "info-saldonline.png"; path = "Saldonline/info-saldonline.png"; sourceTree = SOURCE_ROOT; };
+		B2764C6317F7B40300BC10BF /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = SOURCE_ROOT; };
+		B2764C6417F7B40300BC10BF /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = SOURCE_ROOT; };
+		B2764C6517F7B40300BC10BF /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = SOURCE_ROOT; };
+		B2764C6617F7B40300BC10BF /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = SOURCE_ROOT; };
+		B2764C6717F7B40300BC10BF /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = SOURCE_ROOT; };
+		B2764C6817F7B40300BC10BF /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = SOURCE_ROOT; };
+		B2764C6917F7B40300BC10BF /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = SOURCE_ROOT; };
+		B2764C6A17F7B40300BC10BF /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = SOURCE_ROOT; };
+		B2764C6B17F7B40300BC10BF /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = SOURCE_ROOT; };
+		B2764C6C17F7B40300BC10BF /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = SOURCE_ROOT; };
+		B2764C6D17F7B40300BC10BF /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = SOURCE_ROOT; };
+		B2764C6E17F7B40300BC10BF /* DistancePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = SOURCE_ROOT; };
+		B2764C6F17F7B40300BC10BF /* DistancePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = SOURCE_ROOT; };
+		B2938EBF17ED4F760010DB1D /* Pixate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pixate.framework; sourceTree = "<group>"; };
+		B2938EC117ED50380010DB1D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B2938EC417ED53A90010DB1D /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = SOURCE_ROOT; };
+		B2DE93BB187E1B83004289A1 /* Configuracoes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuracoes.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FDFC0916AA0ACF00437948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2938EC217ED50380010DB1D /* QuartzCore.framework in Frameworks */,
+				59FDFC1516AA0ACF00437948 /* CoreGraphics.framework in Frameworks */,
+				590FA2D216D7A6BA005A6084 /* SystemConfiguration.framework in Frameworks */,
+				590FA2D016D7A6AA005A6084 /* MessageUI.framework in Frameworks */,
+				590FA2CE16D7A69D005A6084 /* AudioToolbox.framework in Frameworks */,
+				590FA2CC16D7A690005A6084 /* StoreKit.framework in Frameworks */,
+				590FA2CA16D7A670005A6084 /* AdSupport.framework in Frameworks */,
+				59443F7E16B887A8009CB488 /* CoreText.framework in Frameworks */,
+				59FDFCD916B2E0B900437948 /* iAd.framework in Frameworks */,
+				59FDFC9316AE199B00437948 /* CoreData.framework in Frameworks */,
+				59FDFC1116AA0ACF00437948 /* UIKit.framework in Frameworks */,
+				B2938EC017ED4F760010DB1D /* Pixate.framework in Frameworks */,
+				59FDFC1316AA0ACF00437948 /* Foundation.framework in Frameworks */,
+				590FA2D416D7A73A005A6084 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590D362016C185BC00097D73 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				B2764C6317F7B40300BC10BF /* AbstractActionSheetPicker.h */,
+				B2764C6417F7B40300BC10BF /* AbstractActionSheetPicker.m */,
+				B2764C6517F7B40300BC10BF /* ActionSheetCustomPicker.h */,
+				B2764C6617F7B40300BC10BF /* ActionSheetCustomPicker.m */,
+				B2764C6717F7B40300BC10BF /* ActionSheetCustomPickerDelegate.h */,
+				B2764C6817F7B40300BC10BF /* ActionSheetDatePicker.h */,
+				B2764C6917F7B40300BC10BF /* ActionSheetDatePicker.m */,
+				B2764C6A17F7B40300BC10BF /* ActionSheetDistancePicker.h */,
+				B2764C6B17F7B40300BC10BF /* ActionSheetDistancePicker.m */,
+				B2764C6C17F7B40300BC10BF /* ActionSheetStringPicker.h */,
+				B2764C6D17F7B40300BC10BF /* ActionSheetStringPicker.m */,
+				B2764C6E17F7B40300BC10BF /* DistancePickerView.h */,
+				B2764C6F17F7B40300BC10BF /* DistancePickerView.m */,
+			);
+			name = Pickers;
+			sourceTree = "<group>";
+		};
+		590D363F16C1865000097D73 /* ActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				590D364116C1869900097D73 /* ActionSheetPicker.h */,
+				590D362016C185BC00097D73 /* Pickers */,
+			);
+			name = ActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		590FA23216D7A228005A6084 /* GoogleADMob */ = {
+			isa = PBXGroup;
+			children = (
+				590FA2D316D7A73A005A6084 /* libGoogleAdMobAds.a */,
+				590FA23316D7A267005A6084 /* GADAdMobExtras.h */,
+				590FA23416D7A267005A6084 /* GADAdNetworkExtras.h */,
+				590FA23516D7A267005A6084 /* GADAdSize.h */,
+				590FA23616D7A267005A6084 /* GADBannerView.h */,
+				590FA23716D7A267005A6084 /* GADBannerViewDelegate.h */,
+				590FA23816D7A267005A6084 /* GADInterstitial.h */,
+				590FA23916D7A267005A6084 /* GADInterstitialDelegate.h */,
+				590FA23A16D7A267005A6084 /* GADRequest.h */,
+				590FA23B16D7A267005A6084 /* GADRequestError.h */,
+			);
+			name = GoogleADMob;
+			sourceTree = "<group>";
+		};
+		59FDFC0116AA0ACF00437948 = {
+			isa = PBXGroup;
+			children = (
+				59FDFC1616AA0ACF00437948 /* Saldonline */,
+				59FDFC0F16AA0ACF00437948 /* Frameworks */,
+				59FDFC0D16AA0ACF00437948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59FDFC0D16AA0ACF00437948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59FDFC0C16AA0ACF00437948 /* Saldonline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59FDFC0F16AA0ACF00437948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2938EC117ED50380010DB1D /* QuartzCore.framework */,
+				B2938EBF17ED4F760010DB1D /* Pixate.framework */,
+				590FA2D116D7A6BA005A6084 /* SystemConfiguration.framework */,
+				590FA2CF16D7A6AA005A6084 /* MessageUI.framework */,
+				590FA2CD16D7A69D005A6084 /* AudioToolbox.framework */,
+				590FA2CB16D7A690005A6084 /* StoreKit.framework */,
+				590FA2C916D7A670005A6084 /* AdSupport.framework */,
+				59443F7D16B887A8009CB488 /* CoreText.framework */,
+				59FDFCD816B2E0B800437948 /* iAd.framework */,
+				59FDFC9216AE199B00437948 /* CoreData.framework */,
+				59FDFC1016AA0ACF00437948 /* UIKit.framework */,
+				59FDFC1216AA0ACF00437948 /* Foundation.framework */,
+				59FDFC1416AA0ACF00437948 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59FDFC1616AA0ACF00437948 /* Saldonline */ = {
+			isa = PBXGroup;
+			children = (
+				590FA23216D7A228005A6084 /* GoogleADMob */,
+				59FDFCCE16B14BFC00437948 /* Lib */,
+				59FDFC5716AE0E6C00437948 /* Data */,
+				59FDFC5616AE0C4900437948 /* Resources */,
+				59FDFC2816AA0ACF00437948 /* MainStoryboard.storyboard */,
+				5994F30116BB4E550020B446 /* AppDelegate.h */,
+				5994F30216BB4E550020B446 /* AppDelegate.m */,
+				5994F30B16BB4E550020B446 /* InicialViewController.h */,
+				5994F30C16BB4E550020B446 /* InicialViewController.m */,
+				5994F30E16BB4E550020B446 /* MeusCartoesViewController.h */,
+				5994F30F16BB4E550020B446 /* MeusCartoesViewController.m */,
+				5994F30916BB4E550020B446 /* ExtratoViewController.h */,
+				5994F30A16BB4E550020B446 /* ExtratoViewController.m */,
+				5994F31716BB4E550020B446 /* TiposViewController.h */,
+				5994F31816BB4E550020B446 /* TiposViewController.m */,
+				5994F31016BB4E550020B446 /* NovoViewController.h */,
+				5994F31116BB4E550020B446 /* NovoViewController.m */,
+				B22FE1391804D372009A0461 /* Images.xcassets */,
+				59FDFC1716AA0ACF00437948 /* Supporting Files */,
+			);
+			path = Saldonline;
+			sourceTree = "<group>";
+		};
+		59FDFC1716AA0ACF00437948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5994F34016BB50EC0020B446 /* InfoPlist.strings */,
+				5994F32E16BB4F290020B446 /* Default-568h@2x.png */,
+				5994F32F16BB4F290020B446 /* Default.png */,
+				5994F33016BB4F290020B446 /* Default@2x.png */,
+				5994F31216BB4E550020B446 /* Saldonline-Info.plist */,
+				5994F31316BB4E550020B446 /* Saldonline-Prefix.pch */,
+				5994F30D16BB4E550020B446 /* main.m */,
+				B2DE93BB187E1B83004289A1 /* Configuracoes.plist */,
+			);
+			name = "Supporting Files";
+			path = Saldonline;
+			sourceTree = "<group>";
+		};
+		59FDFC5616AE0C4900437948 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2938EC317ED538B0010DB1D /* css */,
+				59DE28F816C6BA59008F61B0 /* tresbits.png */,
+				B2764C5117F78C4500BC10BF /* info-saldonline.png */,
+				590D364D16C5A19500097D73 /* logo-saldonline.png */,
+				5994F32A16BB4F290020B446 /* ctTicketAlimentacao.png */,
+				5994F32B16BB4F290020B446 /* ctTicketRestaurante.png */,
+				5994F32C16BB4F290020B446 /* ctVisaValeAlimentacao.png */,
+				5994F32D16BB4F290020B446 /* ctVisaValeRefeicao.png */,
+			);
+			name = Resources;
+			path = Saldonline;
+			sourceTree = "<group>";
+		};
+		59FDFC5716AE0E6C00437948 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5994F34B16BB52F90020B446 /* Saldonline.xcdatamodeld */,
+				5994F30316BB4E550020B446 /* Cartoes.h */,
+				5994F30416BB4E550020B446 /* Cartoes.m */,
+				5994F31516BB4E550020B446 /* TipoCartao.h */,
+				5994F31616BB4E550020B446 /* TipoCartao.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		59FDFCCE16B14BFC00437948 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				590D363F16C1865000097D73 /* ActionSheetPicker */,
+				5994F30616BB4E550020B446 /* DejalActivityView.h */,
+				5994F30716BB4E550020B446 /* DejalActivityView.m */,
+				5994F31916BB4E550020B446 /* Utils.h */,
+				5994F31A16BB4E550020B446 /* Utils.m */,
+			);
+			name = Lib;
+			path = Saldonline;
+			sourceTree = "<group>";
+		};
+		B2938EC317ED538B0010DB1D /* css */ = {
+			isa = PBXGroup;
+			children = (
+				B2938EC417ED53A90010DB1D /* default.css */,
+			);
+			name = css;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59FDFC0B16AA0ACF00437948 /* Saldonline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FDFC3016AA0ACF00437948 /* Build configuration list for PBXNativeTarget "Saldonline" */;
+			buildPhases = (
+				59FDFC0816AA0ACF00437948 /* Sources */,
+				59FDFC0916AA0ACF00437948 /* Frameworks */,
+				59FDFC0A16AA0ACF00437948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saldonline;
+			productName = APIService;
+			productReference = 59FDFC0C16AA0ACF00437948 /* Saldonline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59FDFC0316AA0ACF00437948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Paulo Cesar";
+				TargetAttributes = {
+					59FDFC0B16AA0ACF00437948 = {
+						DevelopmentTeam = 56YZ9Z28D3;
+					};
+				};
+			};
+			buildConfigurationList = 59FDFC0616AA0ACF00437948 /* Build configuration list for PBXProject "Saldonline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"pt-BR",
+				Base,
+			);
+			mainGroup = 59FDFC0116AA0ACF00437948;
+			productRefGroup = 59FDFC0D16AA0ACF00437948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59FDFC0B16AA0ACF00437948 /* Saldonline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FDFC0A16AA0ACF00437948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FDFC2A16AA0ACF00437948 /* MainStoryboard.storyboard in Resources */,
+				B22FE13A1804D372009A0461 /* Images.xcassets in Resources */,
+				5994F33216BB4F290020B446 /* ctTicketAlimentacao.png in Resources */,
+				B2764C5217F78C4500BC10BF /* info-saldonline.png in Resources */,
+				5994F33316BB4F290020B446 /* ctTicketRestaurante.png in Resources */,
+				5994F33416BB4F290020B446 /* ctVisaValeAlimentacao.png in Resources */,
+				B2DE93BC187E1B83004289A1 /* Configuracoes.plist in Resources */,
+				5994F33516BB4F290020B446 /* ctVisaValeRefeicao.png in Resources */,
+				5994F33616BB4F290020B446 /* Default-568h@2x.png in Resources */,
+				5994F33716BB4F290020B446 /* Default.png in Resources */,
+				5994F33816BB4F290020B446 /* Default@2x.png in Resources */,
+				5994F34216BB50EC0020B446 /* InfoPlist.strings in Resources */,
+				590D364E16C5A19500097D73 /* logo-saldonline.png in Resources */,
+				59DE28F916C6BA59008F61B0 /* tresbits.png in Resources */,
+				B2938EC517ED53A90010DB1D /* default.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59FDFC0816AA0ACF00437948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5994F31B16BB4E550020B446 /* AppDelegate.m in Sources */,
+				5994F31C16BB4E550020B446 /* Cartoes.m in Sources */,
+				5994F31E16BB4E550020B446 /* DejalActivityView.m in Sources */,
+				5994F32016BB4E550020B446 /* ExtratoViewController.m in Sources */,
+				5994F32116BB4E550020B446 /* InicialViewController.m in Sources */,
+				B2764C7417F7B40300BC10BF /* ActionSheetStringPicker.m in Sources */,
+				5994F32216BB4E550020B446 /* main.m in Sources */,
+				B2764C7317F7B40300BC10BF /* ActionSheetDistancePicker.m in Sources */,
+				B2764C7217F7B40300BC10BF /* ActionSheetDatePicker.m in Sources */,
+				B2764C7517F7B40300BC10BF /* DistancePickerView.m in Sources */,
+				B2764C7117F7B40300BC10BF /* ActionSheetCustomPicker.m in Sources */,
+				5994F32316BB4E550020B446 /* MeusCartoesViewController.m in Sources */,
+				5994F32416BB4E550020B446 /* NovoViewController.m in Sources */,
+				5994F32716BB4E550020B446 /* TipoCartao.m in Sources */,
+				5994F32816BB4E550020B446 /* TiposViewController.m in Sources */,
+				5994F32916BB4E550020B446 /* Utils.m in Sources */,
+				B2764C7017F7B40300BC10BF /* AbstractActionSheetPicker.m in Sources */,
+				5994F34D16BB52F90020B446 /* Saldonline.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5994F34016BB50EC0020B446 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5994F34116BB50EC0020B446 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = Saldonline;
+			sourceTree = "<group>";
+		};
+		59FDFC2816AA0ACF00437948 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FDFC2916AA0ACF00437948 /* en */,
+				598DD74016B4811E00EB62DE /* Base */,
+				5994F34A16BB52410020B446 /* pt-BR */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59FDFC2E16AA0ACF00437948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59FDFC2F16AA0ACF00437948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59FDFC3116AA0ACF00437948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/paulocsb/Documents/Developer\\ Library/XCodeApps/Saldonline",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saldonline/Saldonline-Prefix.pch";
+				INFOPLIST_FILE = "Saldonline/Saldonline-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads/GoogleAdMobAdsSdkiOS-6.3.0\"",
+					"\"$(SRCROOT)/Saldonline/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
+					"\"$(SRCROOT)/Saldonline\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Saldonline;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59FDFC3216AA0ACF00437948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/paulocsb/Documents/Developer\\ Library/XCodeApps/Saldonline",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saldonline/Saldonline-Prefix.pch";
+				INFOPLIST_FILE = "Saldonline/Saldonline-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Downloads/GoogleAdMobAdsSdkiOS-6.3.0\"",
+					"\"$(SRCROOT)/Saldonline/Add-ons/GoogleAnalyticsiOS_2.0beta4/Library\"",
+					"\"$(SRCROOT)/Saldonline\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Saldonline;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59FDFC0616AA0ACF00437948 /* Build configuration list for PBXProject "Saldonline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FDFC2E16AA0ACF00437948 /* Debug */,
+				59FDFC2F16AA0ACF00437948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FDFC3016AA0ACF00437948 /* Build configuration list for PBXNativeTarget "Saldonline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FDFC3116AA0ACF00437948 /* Debug */,
+				59FDFC3216AA0ACF00437948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5994F34B16BB52F90020B446 /* Saldonline.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5994F34C16BB52F90020B446 /* Saldonline.xcdatamodel */,
+			);
+			currentVersion = 5994F34C16BB52F90020B446 /* Saldonline.xcdatamodel */;
+			path = Saldonline.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59FDFC0316AA0ACF00437948 /* Project object */;
+}

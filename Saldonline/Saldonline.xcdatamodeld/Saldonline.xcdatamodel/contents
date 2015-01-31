@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Cartoes" representedClassName="Cartoes" syncable="YES">
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numero" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tipo" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TipoCartao" syncable="YES"/>
+    </entity>
+    <entity name="TipoCartao" representedClassName="TipoCartao" syncable="YES">
+        <attribute name="codigo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descricao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empresa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TipoCartao" positionX="268" positionY="27" width="128" height="103"/>
+        <element name="Cartoes" positionX="63" positionY="-36" width="135" height="88"/>
+    </elements>
+</model>
